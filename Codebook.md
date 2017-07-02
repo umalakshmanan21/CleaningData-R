@@ -16,11 +16,11 @@ separate tidy data set.
 ## library added : plyr
 
 ## variables : 
-###### trainXdata , trainYlabels, trainSubjects, testYdata, testYlabels, testSubjects,
-labelsval, features - the training , test,activities and features
+#### trainXdata , trainYlabels, trainSubjects, testYdata, testYlabels, testSubjects,
+### labelsval, features - the training , test,activities and features
 
-traindata,testdata contains the all the data inclusive of activites and subjects for test and training data respectively
+##### traindata,testdata contains the all the data inclusive of activites and subjects for test and training data respectively
 
-tidy_data contains the overall data set containing both test and training data 
+###### tidy_data contains the overall data set containing both test and training data 
 
 independent_data contains the average measurement for each group , groupby subjects and activity.
