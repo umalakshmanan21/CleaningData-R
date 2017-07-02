@@ -75,6 +75,7 @@ tidy_data[, 1] <- labelsval[tidy_data[, 1], 2]
 
 ## STEP 5 : creating an independent data set with average of each variable for each activity and subject
 independent_data <- ddply(tidy_data, .(subjects, activity), function(x) colMeans(x[, 2:81]))
+write.table(independent_data,file = "tidy_dataset.txt",row.names = FALSE)
 independent_data
 
        
